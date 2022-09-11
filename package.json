@@ -1,0 +1,15 @@
+{
+  "name": "com.pjvideogames.weightedarray",
+  "version": "0.0.1",
+  "displayName": "Weighted Array",
+  "description": "Basic Weighted Array class for weighted randomization",
+  "unity": "2021.1",
+  "keywords": [
+    "randomization"    
+  ],
+  "author": {
+    "name": "PJ Haye",
+    "email": "pj.haye@gmail.com"
+  },
+  "type": "module"
+}
