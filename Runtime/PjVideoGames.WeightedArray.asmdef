@@ -1,5 +1,5 @@
 {
-    "name": "pjvideogames.weightedarray.runtime",
+    "name": "PjVideoGames.WeightedArray",
     "rootNamespace": "WeightedArrays",
     "references": [],
     "includePlatforms": [],
