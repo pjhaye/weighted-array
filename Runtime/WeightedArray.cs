@@ -28,6 +28,18 @@ namespace WeightedArrays
             _weightedArrayEntries.Add(new WeightedArrayEntry<T>(item, weight));
         }
 
+        public void RemoveItem(T item)
+        {
+            foreach (var weightedArrayEntry in _weightedArrayEntries)
+            {
+                if (weightedArrayEntry.Item.Equals(item))
+                {
+                    _weightedArrayEntries.Remove(weightedArrayEntry);
+                    return;
+                }
+            }
+        }
+
         public T GetRandomItem()
         {
             var total = 0.0f;
